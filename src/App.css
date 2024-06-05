@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.invalid-input {
+  color: red;
+  display: block;
+  /* margin-bottom: 5px; */
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+.active {
+  background-color: rgb(232, 92, 46);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.3rem;
+}
+.btn {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.3rem;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
